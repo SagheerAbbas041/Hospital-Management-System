@@ -4,7 +4,7 @@ import {ChevronRight, CircleChevronDown, CircleChevronUp, Medal, MousePointer2Of
 import { Link } from "react-router-dom";
 
 const DoctorsPage = () => {
-    const API_BASE = 'http://localhost:4000';
+    const API_BASE = 'https://hospital-management-system-alpha-lime.vercel.app';
 
      const [allDoctors, setAllDoctors] = useState([]);
   const [loading, setLoading] = useState(true);

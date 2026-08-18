@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import {serviceAppointmentsStyles} from '../assets/dummyStyles';
 import {BadgeIndianRupee, Calendar, CheckCircle, Clock, Loader2, Phone, SearchIcon, User, XCircle, XIcon} from 'lucide-react'
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 // Helper Function
 function formatTwo(n) {
   return String(n).padStart(2, "0");

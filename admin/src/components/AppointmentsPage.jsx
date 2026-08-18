@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from "react";
 import { pageStyles, statusClasses, keyframesStyles } from "../assets/dummyStyles"
 import {BadgeIndianRupee, Calendar, Search} from "lucide-react"
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 
 // Helper Function
 // this function returns the date as 22 jan 2026

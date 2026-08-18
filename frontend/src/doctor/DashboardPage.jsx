@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import { dashboardStyles } from "../assets/dummyStyles";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 
 function parseDateTime(date, time) {
   return new Date(`${date}T${time}:00`);

@@ -2,7 +2,7 @@ import { BadgeIndianRupee, CalendarRange, CheckCircle, Search, UserRoundCheck, U
 import { dashboardStyles as s } from "../assets/dummyStyles";
 import { useEffect, useMemo, useState } from "react";
 
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://hospital-management-system-alpha-lime.vercel.app';
 // Fixed: Removed double slash //api
 const PATIENT_COUNT_API = `${API_BASE}/api/appointments/patients/count`;
 

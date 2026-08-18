@@ -2,7 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 
 const VerifyPaymentPage = () => {
   const location = useLocation();

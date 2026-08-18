@@ -3,7 +3,7 @@ import { addServiceStyles } from "../assets/dummyStyles"
 import {AlertTriangle, Calendar, CheckCircle, Clock, Image, Plus, Trash2, XCircle} from "lucide-react"
 
 const AddService = ({serviceId}) => {
-const API_BASE = "http://localhost:4000";
+const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 
   const fileRef = useRef(null);
   const [imagePreview, setImagePreview] = useState(null);

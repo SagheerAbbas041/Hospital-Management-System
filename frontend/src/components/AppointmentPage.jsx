@@ -1,6 +1,6 @@
 import {appointmentPageStyles, cardStyles, badgeStyles, iconSize} from '../assets/dummyStyles'
 import { Bell, CalendarDays, CheckCircle, Clock, CreditCard, Wallet, XCircle } from 'lucide-react';
-const API_BASE = 'http://localhost:4000';
+const API_BASE = 'https://hospital-management-system-alpha-lime.vercel.app';
 import { Toaster, toast } from "react-hot-toast";
 import axios from 'axios';
 import { useCallback, useEffect, useMemo, useState } from 'react';

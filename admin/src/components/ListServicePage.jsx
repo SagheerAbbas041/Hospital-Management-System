@@ -13,7 +13,7 @@ import {
 import { serviceListStyles as s } from "../assets/dummyStyles";
 
 export default function ListServicePage() {
-  const API_BASE = "http://localhost:4000";
+  const API_BASE = "https://hospital-management-system-alpha-lime.vercel.app";
 
   const [services, setServices] = useState([]);
   const [openDetails, setOpenDetails] = useState({});
