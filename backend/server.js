@@ -14,9 +14,9 @@ const port = process.env.PORT || 4000;
 
 // Allowed CORS Origins
 const allowedOrigins = [
-  "http://localhost:5173",
+  "https://hospital-management-system-frontend-lemon.vercel.app",
   "http://localhost:3000",
-  "http://localhost:5174",
+  "https://hospital-management-system-admin-six.vercel.app",
   "http://localhost:4000",
 ];
 
